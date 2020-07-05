@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/kenzo/device.mk)
 
 
-# Inherit some common Pixys- stuff.
+# Inherit some common Corvus-stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 
@@ -48,7 +48,6 @@ BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-
 # Product packages
 TARGET_USE_JELLY := true
 PRODUCT_PACKAGES += \
-    AdvancedControls \
     OneplusWidget \
     FirefoxLite \
     Musicolet \
@@ -60,11 +59,7 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
     
-#Official
-#PIXYS_NOGAPPS := true
-#BUILD_WITH_GAPPS := true
-
-#Corvus/Du specifics
-DU_BUILD_TYPE := Beta
-scr_resolution := 1080
+#Official Corvus
+DU_BUILD_TYPE := OFFICIAL
+#scr_resolution := 1080
 #USE_GAPPS := true
