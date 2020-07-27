@@ -23,7 +23,6 @@ $(call inherit-product, device/xiaomi/kenzo/device.mk)
 
 # Inherit some common Corvus-stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
-$(call inherit-product, device/corvus/CorvusParts/corvusparts.mk)
 
 
 # Set those variables here to overwrite the inherited values.
