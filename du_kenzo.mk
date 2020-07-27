@@ -53,6 +53,7 @@ PRODUCT_PACKAGES += \
     FirefoxLite \
     Musicolet \
     CameraGo \
+    KimciRecorder \
     RemovePackages
 	
 # Boot animation
