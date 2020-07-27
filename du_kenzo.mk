@@ -51,7 +51,6 @@ TARGET_USE_JELLY := true
 PRODUCT_PACKAGES += \
     OneplusWidget \
     FirefoxLite \
-    Musicolet \
     CameraGo \
     KimciRecorder \
     RemovePackages
