@@ -2,41 +2,49 @@
   {
     "repository": "CorvusRom-Devices/device_xiaomi_kenzo",
     "target_path": "device/xiaomi/kenzo",
-    "branch": "10"
+    "branch": "10",
+    "remote": "github"
   },
   {
     "repository": "aza786/device_xiaomi_msm8956common",
     "target_path": "device/xiaomi/msm8956-common",
-    "branch": "10"
+    "branch": "10",
+    "remote": "github"
   },
   {
     "repository": "aza786/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch": "cos"
+    "branch": "cos",
+    "remote": "github"
   },
   {
     "repository": "aza786/Escrima_kernel_xiaomi_msm8956",
     "target_path": "kernel/xiaomi/msm8956",
     "branch": "ten",
+    "remote": "github"
   },
   {
     "repository": "aza786/android_hardware_qcom-caf_msm8952",
     "target_path": "hardware/qcom-caf/msm8952",
-    "branch": "10"
+    "branch": "10",
+    "remote": "github"
   },
   {
     "repository": "aza786/android_hardware_qcom_display",
     "target_path": "hardware/qcom-caf/msm8952/display",
-    "branch": "queencake"
+    "branch": "queencake",
+    "remote": "github"
   },
   {
     "repository": "aza786/android_hardware_qcom_media",
     "target_path": "hardware/qcom-caf/msm8952/media",
-    "branch": "queencake"
+    "branch": "queencake",
+    "remote": "github"
   },
   {
     "repository": "aza786/android_hardware_qcom_audio",
     "target_path": "hardware/qcom-caf/msm8952/audio",
-    "branch": "ten"
+    "branch": "ten",
+    "remote": "github"
   }
 ]
