@@ -14,4 +14,7 @@
 		<!-- Corvus maintainer -->
     <string name="maintainer">Maintainer</string>
     <string name="corvus_maintainer">Azaharuddin</string>    	
+
+    <!-- SELinux Status Force to show Permissive TEMP-->
+    <string name="selinux_status_enforcing">Permissive</string>
     </resources>
