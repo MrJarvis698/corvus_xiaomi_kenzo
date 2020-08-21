@@ -101,11 +101,21 @@ static void init_alarm_boot_properties()
             property_set("ro.alarm_boot", "false");
     }
 }
+void set_avoid_gfxaccel_config() {
+    struct sysinfo sys;
+    sysinfo(&sys);
+
+    if (sys.totalram <= 3072ull * 1024 * 1024) {
+        // Reduce memory footprint
+        SetProperty("ro.config.avoid_gfx_accel", "true");
+    }
+}
 
 void vendor_load_properties()
 {
     init_alarm_boot_properties();
     check_device();
+	set_avoid_gfxaccel_config();
 
     property_set("dalvik.vm.heapstartsize", heapstartsize);
     property_set("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
