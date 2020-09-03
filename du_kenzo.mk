@@ -49,7 +49,6 @@ BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-
 TARGET_USE_JELLY := true
 PRODUCT_PACKAGES += \
     OneplusWidget \
-    FirefoxLite \
     CameraGo \
     KimciRecorder \
     RemovePackages
@@ -63,3 +62,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 DU_BUILD_TYPE := OFFICIAL
 #scr_resolution := 1080
 #USE_GAPPS := true
+
+# Vanilla Specifics
+ifneq ($(USE_GAPPS),true)
+PRODUCT_PACKAGES += \
+    FirefoxLite
+endif
