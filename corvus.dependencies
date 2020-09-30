@@ -1,6 +1,6 @@
 [
   {
-    "repository": "CorvusRom-Devices/device_xiaomi_kenzo",
+    "repository": "MrJarvis698/corvus_xiaomi_kenzo",
     "target_path": "device/xiaomi/kenzo",
     "branch": "10",
     "remote": "github"

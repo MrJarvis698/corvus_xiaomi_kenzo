@@ -13,7 +13,7 @@
 	<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 		<!-- Corvus maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="corvus_maintainer">Azaharuddin</string>    	
+    <string name="corvus_maintainer">Azaharuddin & mrjarvis698</string>    	
 
     <!-- SELinux Status Force to show Permissive TEMP-->
     <string name="selinux_status_enforcing">Permissive</string>
